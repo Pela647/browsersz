@@ -1,0 +1,39 @@
+#sizew,
+#sizeh,
+#main,
+div {
+    font-size: 20px;
+    font-family: 'Limelight', cursive;
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+body {
+    background-color: #ECD062;
+}
+
+
+.site {
+    display: grid;
+    grid-template-columns: 1fr repeat(6, minmax(auto, 10em)) 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    /*    align-items: center;
+    */
+}
+
+
+.main {
+    grid-column: 3/7;
+    grid-row: 2/7;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    border: 5px solid white;
+}
+
+img {
+    max-width: 100%;
+}
